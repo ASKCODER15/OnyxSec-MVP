@@ -1,6 +1,4 @@
-[Upl<div align="center">
-
-<div align="center"><!-- The Spinning Radar SVG Logo (Colored to match the Hazard-Amber #E2572B Theme) --><svg width="120" height="120" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 20px;"> <style> @keyframes radarSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } .radar-sweep { transform-origin: 32px 32px; animation: radarSpin 2s linear infinite; } </style> <circle cx="32" cy="32" r="28" fill="none" stroke="#2C2F38" stroke-width="3"/> <circle cx="32" cy="32" r="18" fill="none" stroke="#2C2F38" stroke-width="1.5"/> <circle cx="32" cy="32" r="8" fill="none" stroke="#2C2F38" stroke-width="1.5"/> <line class="radar-sweep" x1="32" y1="32" x2="32" y2="4" stroke="#E2572B" stroke-width="3" stroke-linecap="round"/> <!-- Glowing center dot --> <circle cx="32" cy="32" r="3" fill="#E2572B"/> </svg>
+<div align="center"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/shield-halved.svg" width="80" height="80" alt="OnyxSec Shield" style="filter: invert(47%) sepia(85%) saturate(1915%) hue-rotate(345deg) brightness(97%) contrast(92%); margin-bottom: 10px;">
 # ONYXSEC.AI
 **The Immune System for AI-Generated Infrastructure.**
 
