@@ -40,8 +40,7 @@ If you wish to test the Security Dossier simulator locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/OnyxSec-MVP.git
-   cd OnyxSec-MVP
+  git clone https://github.com/ASKCODER15/OnyxSec-MVP.git
    ```
 2. **Install dependencies:**
    ```bash
