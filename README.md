@@ -1,5 +1,6 @@
-<div align="center"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/shield-halved.svg" width="80" height="80" alt="OnyxSec Shield" style="filter: invert(47%) sepia(85%) saturate(1915%) hue-rotate(345deg) brightness(97%) contrast(92%); margin-bottom: 10px;">
-# ONYXSEC.AI
+<div align="center">
+
+# 🛡️ ONYXSEC.AI
 **The Immune System for AI-Generated Infrastructure.**
 
 [![Status](https://img.shields.io/badge/Status-Active_Prototype-10b981?style=for-the-badge&logo=appveyor)](https://github.com/ASKCODER15/OnyxSec-MVP)
@@ -43,8 +44,7 @@ Want to test the engine on your own machine?
 
 1. **Clone the repository:**
    ```bash
-   https://github.com/ASKCODER15/OnyxSec-MVP.git
-   
+    https://github.com/ASKCODER15/OnyxSec-MVP.git
    ```
 2. **Install dependencies:**
    ```bash
@@ -70,4 +70,4 @@ This MVP is Phase 1. Our vision is to become the default security layer for the 
 <div align="center">
   <br>
   <b>Built by ASKCODER15</b>
-</div>oading README (1).md…]()
+</div>oading README (2).md…]()
