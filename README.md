@@ -1,61 +1,76 @@
-[U<div align="center">
-  
-# 🛡️ ONYXSEC.AI
+[Upl<div align="center">
+
+<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/shield-halved.svg" width="80" height="80" alt="OnyxSec Shield" style="filter: invert(47%) sepia(85%) saturate(1915%) hue-rotate(345deg) brightness(97%) contrast(92%); margin-bottom: 10px;">
+
+# ONYXSEC.AI
 **The Immune System for AI-Generated Infrastructure.**
 
-*Built for the IBM Call for Code Global Challenge: Assist & Amplify Track*
+[![Status](https://img.shields.io/badge/Status-Active_Prototype-10b981?style=for-the-badge&logo=appveyor)](https://github.com/ASKCODER15/OnyxSec-MVP)
+[![Engine](https://img.shields.io/badge/Engine-Llama_3.3_70B-3b82f6?style=for-the-badge&logo=meta)](https://groq.com)
+[![License](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-## ⚠️ The Threat to Frontline Organizations
-Non-Governmental Organizations (NGOs) and human rights activists are increasingly relying on generative AI tools (such as Lovable, v0, and ChatGPT) to rapidly build digital applications for victim outreach and resource mapping. 
+## 🌍 The Global Cyber-Crisis
+We are in the middle of the greatest shift in software history. AI tools (like Lovable, v0, Cursor, and Copilot) are allowing millions of people to generate full-stack applications in seconds. 
 
-**The Problem:** AI excels at generating Frontend User Interfaces but notoriously generates highly insecure backend code.
-If trafficking syndicates exploit these AI-generated vulnerabilities (such as Broken Access Control or exposed API keys), they can access NGO databases, unmasking whistleblower identities and exposing safehouse locations. In this field, insecure code costs lives.
+**But there is a fatal flaw:** Generative AI is optimized for syntax and design, *not* enterprise security. 
 
-## 💡 Our Solution: OnyxSec
-OnyxSec is an automated, AI-driven Code Auditing and Security Dossier platform designed specifically to intercept vulnerable AI-generated code before it reaches production.
+Right now, millions of lines of AI-generated code are being pushed to production containing **SQL Injections, Broken Authentication, and Exposed API Keys**. We are actively building a global infrastructure made of glass. When cyber-syndicates figure out how to mass-exploit these AI hallucinations, the global economy will face a multi-billion dollar data breach crisis.
 
-### Core Features:
-*   **The AI Security Tribunal:** OnyxSec doesn't rely on a single model. Users can toggle a **Multi-Model Consensus Engine** that simultaneously queries multiple state-of-the-art LLMs (like Meta's Llama 3.3 70B) to cross-examine code and ensure zero vulnerabilities are missed.
-*   **Deterministic Threat Scoring:** To prevent LLM hallucinations, OnyxSec utilizes a hardcoded Python mathematical engine that calculates a strict Risk Score (0-100) based on the severity of the OWASP Top 10 vulnerabilities detected.
-*   **Interactive Security Dossier:** Instead of auto-fixing the code (which creates lazy developers), OnyxSec acts as a strict Senior Engineer. It flags the vulnerabilities, forces the developer to rewrite the code, and mathematically verifies their fix.
+## 💡 The OnyxSec Protocol
+**OnyxSec is an enterprise-grade Security Dossier and Backend Injector.** We intercept vulnerable AI-generated frontend code and automatically weave military-grade security infrastructure into it. 
 
----
+We don't just fix code; we train developers and mathematically guarantee application safety before deployment.
 
-## 🛠️ Technology Stack & Architecture
-This MVP was engineered to demonstrate the feasibility of automated security injection, with a roadmap to scale onto enterprise infrastructure.
-
-*   **Frontend / UI:** Python & Streamlit (Featuring a custom Neo-Brutalist 3D design system).
-*   **AI Inference Engine:** Groq API (Utilizing Llama 3.3 70B for deep architectural audits).
-*   **Enterprise Roadmap:** The production version of OnyxSec is designed to integrate natively with **IBM Cloud Object Storage** and **IBM Watsonx.ai** to guarantee absolute data sovereignty for our NGO partners.
+### ⚡ Core Architecture
+*   **🧠 Multi-Model Consensus Engine:** Relying on a single AI model is dangerous. OnyxSec queries multiple state-of-the-art models (powered by **Llama 3.3 70B** via Groq) to cross-examine the codebase, ensuring zero vulnerabilities slip through the cracks.
+*   **🧮 Deterministic Threat Scoring:** AI is terrible at grading. We built a hardcoded Python mathematical engine that parses the OWASP Top 10 vulnerabilities found by the LLM and calculates a strict, deterministic Risk Score (0-100).
+*   **🛠️ Interactive Security Dossier:** OnyxSec features a Neo-Brutalist "Security Dossier" UI (Deep graphite, hazard-amber flags). It acts as a strict Senior Cybersecurity Engineer: flagging vulnerabilities, forcing the developer to attempt the rewrite, and algorithmically verifying the fix.
 
 ---
 
-## 🚀 How to Run the OnyxSec MVP Locally
+## 💻 Tech Stack
+*   **Frontend:** Python / Streamlit (Custom Security Dossier Design System)
+*   **Inference Engine:** Groq Cloud API 
+*   **LLMs:** Meta Llama 3.1 (8B) and Llama 3.3 (70B)
+*   **Parsing Logic:** Regex & Python Deterministic Math Engine
 
-If you wish to test the Security Dossier simulator locally, follow these steps:
+---
+
+## 🚀 Quickstart: Run OnyxSec Locally
+
+Want to test the engine on your own machine? 
 
 1. **Clone the repository:**
    ```bash
-   https://github.com/ASKCODER15/OnyxSec-MVP.git
+   git clone https://github.com/ASKCODER15/OnyxSec-MVP.git
+   cd OnyxSec-MVP
    ```
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the application:**
+3. **Boot the Engine:**
    ```bash
-   streamlit run app.py
+   streamlit run project.py
    ```
 4. **Configuration:**
-   * Obtain a free API key from [Groq Console](https://console.groq.com/).
-   * Paste the key into the OnyxSec configuration sidebar to initiate a scan.
+   * Get a free API key from the [Groq Console](https://console.groq.com/).
+   * Paste it into the OnyxSec sidebar and initiate a scan!
 
 ---
-<div align="center">
-  <i>"We can democratize application development for underfunded NGOs, while guaranteeing mathematically secure privacy for the survivors they protect."</i>
-</div>ploading README.md…]()
 
+## 🗺️ The Billion-Dollar Roadmap
+This MVP is Phase 1. Our vision is to become the default security layer for the entire AI-development ecosystem.
+- [x] **Phase 1:** Web-based Interactive Security Dossier (MVP).
+- [ ] **Phase 2:** VS Code Extension (Real-time AI code auditing as you type).
+- [ ] **Phase 3:** CI/CD Pipeline Integration (Automatically blocking unsecure AI code from reaching GitHub production branches).
+- [ ] **Phase 4:** Enterprise Deployment on IBM Cloud & Watsonx.
+
+<div align="center">
+  <br>
+  <b>Built by ASKCODER15</b>
+</div>oading README (1).md…]()
